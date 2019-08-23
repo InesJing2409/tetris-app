@@ -5,7 +5,6 @@ import React, { Component } from "react";
 class GridSquare extends Component {
   render() {
     const classes = `grid-square color-${this.props.color}`;
-    console.log("classes: ", classes);
     return <div className={classes} />;
   }
 }
