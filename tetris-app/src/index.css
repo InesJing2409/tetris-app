@@ -88,6 +88,13 @@ are defined in `:root` which allow them to be easily changed.*/
   align-self: flex-start;
 }
 
+/* Next block */
+.next-block {
+  display: grid;
+  grid-template-columns: repeat(4, var(--tile-size));
+  align-self: flex-start;
+}
+
 /* below is from the default create React app */
 
 body {
